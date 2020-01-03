@@ -1,6 +1,7 @@
 body {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#094c72+98,01293f+100 */
     background-color: black;
+    overflow: hidden;
 }
 
 @function box-shadow($stars) {
@@ -94,7 +95,7 @@ $bxshadow-small: box-shadow(800);
 
 .text {
     width: 50%;
-    text-align: center;
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
     color: yellow;
